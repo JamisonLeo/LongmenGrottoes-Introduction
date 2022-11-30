@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/backImg.png);
+    background-attachment: fixed;
+    background-size: auto 20%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+img {
+    pointer-events: none;
+}
+
+.body {
+    width: 85%;
+    margin: auto;
+}
+
+.navBox {
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(108, 108, 108);
+    z-index: 9999999;
+}
+
+.title {
+    width: 18%;
+    height: 100%;
+    background-image: url(../images/word.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.navBox ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.nav li {
+    float: left;
+    margin-top: 0.7%;
+    width: 10%;
+    height: 100%;
+    margin-right: 10%;
+}
+
+.nav li .menu1,
+.nav li .menu2,
+.nav li .menu3 {
+    background-color: rgb(108, 108, 108);
+    display: none;
+}
+
+.nav li:hover .menu1 {
+    height: 200%;
+    display: block;
+    border-radius: 0% 0% 5% 5%;
+}
+
+.nav li .menu1 li {
+    width: 76%;
+    height: 33.3%;
+    margin-left: 12%;
+    float: none;
+}
+
+.nav li:hover .menu2,
+.nav li:hover .menu3 {
+    height: 140%;
+    display: block;
+    border-radius: 0% 0% 5% 5%;
+}
+
+.nav li .menu2 li,
+.nav li .menu3 li {
+    width: 76%;
+    height: 50%;
+    margin-left: 12%;
+    float: none;
+}
+
+.nav li .shouye {
+    height: 77%;
+    background-image: url(../images/word/shouye.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .shouye:hover {
+    height: 77%;
+    background-image: url(../images/word/shouye1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .xiangxijieshao {
+    height: 77%;
+    background-image: url(../images/word/xiangxijieshao.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .xiangxijieshao:hover {
+    height: 77%;
+    background-image: url(../images/word/xiangxijieshao1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .menu1 .lishizonglan {
+    background-image: url(../images/word/lishizonglan.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .menu1 .lishizonglan:hover {
+    background-image: url(../images/word/lishizonglan1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .menu1 .jingdianjieshao {
+    background-image: url(../images/word/jingdainjieshao.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .menu1 .jingdianjieshao:hover {
+    background-image: url(../images/word/jingdainjieshao1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .menu1 .youkepinglun {
+    background-image: url(../images/word/youkepinglun.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .menu1 .youkepinglun:hover {
+    background-image: url(../images/word/youkepinglun1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .shipindaoyou {
+    height: 77%;
+    background-image: url(../images/word/shipindaoyou.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .shipindaoyou:hover {
+    background-image: url(../images/word/shipindaoyou1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .xiangguanshipin {
+    background-image: url(../images/word/xiangguanshipin.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .xiangguanshipin:hover {
+    background-image: url(../images/word/xiangguanshipin1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .wenhuachuancheng {
+    background-image: url(../images/word/wenhuachuancheng.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .wenhuachuancheng:hover {
+    background-image: url(../images/word/wenhuachuancheng1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav li .login_in {
+    height: 77%;
+    background-image: url(../images/word/denglu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav li .login_in:hover {
+    height: 77%;
+    background-image: url(../images/word/denglu1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

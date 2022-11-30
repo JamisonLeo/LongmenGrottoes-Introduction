@@ -1,0 +1,93 @@
+.top {
+    width: 100%;
+}
+
+.top img {
+    width: 100%;
+}
+
+.videos .video1 {
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.625);
+    border-radius: 0 0 70px 70px;
+}
+
+.videos .video2,
+.videos .video3,
+.videos .video4,
+.videos .video5 {
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.625);
+    border-radius: 70px 70px 70px 70px;
+}
+
+.videos .video6 {
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.625);
+    border-radius: 70px 70px 0 0;
+}
+
+.videos .video1 div,
+.videos .video2 div,
+.videos .video3 div,
+.videos .video4 div,
+.videos .video5 div,
+.videos .video6 div {
+    text-align: center;
+    font-size: 50px;
+    line-height: 150px;
+    font-family: 楷体;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px black;
+}
+
+.videos .video1 video,
+.videos .video2 video,
+.videos .video3 video,
+.videos .video5 video,
+.videos .video6 video {
+    border: 10px solid rgb(167, 203, 235);
+    margin-left: 50px;
+    width: 650px;
+    float: left;
+}
+
+.videos .video4 video {
+    border: 10px solid rgb(167, 203, 235);
+    width: 650px;
+    float: left;
+}
+
+.videos .video1 p,
+.videos .video4 p {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 470px;
+    height: 305px;
+    float: left;
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 30px;
+    font-family: 仿宋;
+    font-weight: 700;
+    color: rgb(172, 85, 54);
+}
+
+.videos .video2 p,
+.videos .video3 p,
+.videos .video5 p,
+.videos .video6 p {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 470px;
+    height: 305px;
+    float: left;
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 30px;
+    font-family: 仿宋;
+    font-weight: 700;
+    color: rgb(172, 85, 54);
+}

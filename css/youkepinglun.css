@@ -1,0 +1,702 @@
+.padding {
+    height: 50px;
+}
+
+.body {
+    width: 80%;
+    height: 1750px;
+    background-color: rgba(255, 255, 255, 0.721);
+}
+
+.body .middle_left {
+    z-index: 999;
+    width: 300px;
+    height: 671px;
+    background-color: rgb(135, 162, 187);
+    position: fixed;
+    left: 152px;
+    top: 50px;
+    border-right: 2px solid rgb(221, 221, 221);
+}
+
+.body .middle_left .user_img {
+    margin: 80px 50px 80px 75px;
+    width: 150px;
+}
+
+.body .middle_left .user_img img {
+    pointer-events: all;
+    width: 100%;
+}
+
+.body .middle_left #zonglan,
+.body .middle_left #jingdiandaodu,
+.body .middle_left #jingdianpinglun,
+.body .middle_left #youlanganshou {
+    padding-bottom: 2px;
+    padding-left: 70px;
+    line-height: 70px;
+    font-size: 25px;
+    letter-spacing: 0.5em;
+}
+
+.body .middle_left #zonglan {
+    background-color: rgb(57, 68, 83);
+    color: white;
+}
+
+.body .middle_left #zonglan:hover,
+.body .middle_left #jingdiandaodu:hover,
+.body .middle_left #jingdianpinglun:hover,
+.body .middle_left #youlanganshou:hover {
+    background-color: rgb(57, 68, 83) !important;
+    color: white !important;
+}
+
+.body #content1,
+.body #content2,
+.body #content3,
+.body #content4 {
+    position: absolute;
+    left: 455px;
+    width: 912px;
+    display: none;
+}
+
+.body #content1 {
+    display: block;
+}
+
+.body #content1 .renshu,
+.body #content1 .liulan {
+    border-radius: 0 100px;
+    float: left;
+    margin: 20px 0 10px 35px;
+    background-color: rgb(213, 213, 213);
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+
+.body #content1 .shouru,
+.body #content1 .zongping {
+    border-radius: 100px 0;
+    float: left;
+    margin: 20px 0 10px 35px;
+    background-color: rgb(213, 213, 213);
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+
+.body #content1 .renshu .head,
+.body #content1 .shouru .head,
+.body #content1 .zongping .head,
+.body #content1 .liulan .head {
+    font-size: 50px;
+    line-height: 130px;
+    font-family: 楷体;
+    font-weight: 900;
+}
+
+.body #content1 .renshu .text,
+.body #content1 .shouru .text,
+.body #content1 .zongping .text,
+.body #content1 .liulan .text {
+    font-size: 35px;
+    line-height: 80px;
+    font-family: 幼圆;
+    font-weight: 900;
+    color: rgb(64, 64, 64);
+}
+
+.body #content1 .padding {
+    clear: left;
+    height: 15px;
+}
+
+.body #content1 .jddd,
+.body #content1 .jdpl,
+.body #content1 .ylgs {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    width: 830px;
+    clear: left;
+}
+
+.body #content1 .jianbian {
+    margin-left: -20px;
+    background-image: linear-gradient(to right, rgba(255, 132, 0, 1), rgba(255, 132, 0, 0));
+}
+
+.body #content1 ul {
+    font-size: 20px;
+    font-family: 仿宋;
+    font-weight: 400;
+    list-style-type: circle;
+}
+
+.body #content1 li:nth-child(even) {
+    background-color: rgb(229, 229, 229);
+}
+
+.body #content1 li::marker {
+    color: rgb(255, 132, 0);
+    font-size: 15px;
+}
+
+.body #content2 .head,
+.body #content3 .head,
+.body #content4 div.head {
+    background-image: linear-gradient(to right, rgb(253, 203, 151), rgba(255, 203, 151, .5), rgba(255, 132, 0, 0), rgba(255, 132, 0, 0));
+    font-size: 70px;
+    letter-spacing: .5em;
+    font-family: 楷体;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.body #content2 .a,
+.body #content2 .b,
+.body #content2 .c,
+.body #content2 .d {
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 30px;
+    background-color: rgb(229, 229, 229);
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.body #content3 .e,
+.body #content3 .f,
+.body #content3 .g,
+.body #content3 .h,
+.body #content3 .i {
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 30px;
+    background-color: rgb(229, 229, 229);
+    width: 800px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.body #content2 .a .name,
+.body #content2 .b .name,
+.body #content2 .c .name,
+.body #content2 .d .name,
+.body #content3 .e .name,
+.body #content3 .f .name,
+.body #content3 .g .name,
+.body #content3 .h .name,
+.body #content3 .i .name {
+    font-size: 40px;
+}
+
+.body #content2 .a .name img,
+.body #content2 .b .name img,
+.body #content2 .c .name img,
+.body #content2 .d .name img,
+.body #content3 .e .name img,
+.body #content3 .f .name img,
+.body #content3 .g .name img,
+.body #content3 .h .name img,
+.body #content3 .i .name img {
+    height: 50px;
+}
+
+.body #content2 .a .content,
+.body #content2 .b .content,
+.body #content2 .c .content,
+.body #content2 .d .content,
+.body #content3 .e .content,
+.body #content3 .f .content,
+.body #content3 .g .content,
+.body #content3 .h .content,
+.body #content3 .i .content {
+    margin-top: 15px;
+    text-indent: 2em;
+    font-size: 20px;
+    font-family: 仿宋;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.body #content2 hr {
+    border: 0;
+    height: 2px;
+    background-color: rgb(139, 139, 139);
+}
+
+#heartA {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 10px;
+}
+
+#heartB {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 395px;
+}
+
+#heartC {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 780px;
+}
+
+#heartD {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 1165px;
+}
+
+#heartE {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 10px;
+}
+
+#heartF {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 325px;
+}
+
+#heartG {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 640px;
+}
+
+#heartH {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 955px;
+}
+
+#heartI {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 200px;
+    bottom: 1270px;
+}
+
+#heart_A {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 14px;
+}
+
+#heart_B {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 399px;
+}
+
+#heart_C {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 784px;
+}
+
+#heart_D {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 1169px;
+}
+
+#heart_E {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 15px;
+}
+
+#heart_F {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 330px;
+}
+
+#heart_G {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 645px;
+}
+
+#heart_H {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 959px;
+}
+
+#heart_I {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/heart_.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 130px;
+    bottom: 1274px;
+}
+
+#starA {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 5px;
+}
+
+#starB {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 390px;
+}
+
+#starC {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 775px;
+}
+
+#starD {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 1160px;
+}
+
+#starE {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 6px;
+}
+
+#starF {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 321px;
+}
+
+#starG {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 636px;
+}
+
+#starH {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 951px;
+}
+
+#starI {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/youkepinglun/like/star.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    bottom: 1266px;
+}
+
+#content4 .img1,
+#content4 .img2,
+#content4 .img3,
+#content4 .img4,
+#content4 .img5,
+#content4 .img6 {
+    margin-top: 40px;
+    margin-left: 40px;
+    float: left;
+    width: 250px;
+    height: 150px;
+    transition: all .3s;
+}
+
+#content4 .img1 img,
+#content4 .img2 img,
+#content4 .img3 img,
+#content4 .img4 img,
+#content4 .img5 img,
+#content4 .img6 img {
+    width: 100%;
+    display: block;
+}
+
+#content4 .img1:hover img {
+    transform: translate(-7px, -7px);
+    box-shadow: 7px 7px 10px rgb(61, 61, 61);
+    content: url(../images/youkepinglun/gif/top1.gif);
+}
+
+#content4 .img2:hover img {
+    transform: translate(-7px, -7px);
+    box-shadow: 7px 7px 10px rgb(61, 61, 61);
+    content: url(../images/youkepinglun/gif/top2.gif);
+}
+
+#content4 .img3:hover img {
+    transform: translate(-7px, -7px);
+    box-shadow: 7px 7px 10px rgb(61, 61, 61);
+    content: url(../images/youkepinglun/gif/top3.gif);
+}
+
+#content4 .img4:hover img {
+    transform: translate(-7px, -7px);
+    box-shadow: 7px 7px 10px rgb(61, 61, 61);
+    content: url(../images/youkepinglun/gif/top4.gif);
+}
+
+#content4 .img5:hover img {
+    transform: translate(-7px, -7px);
+    box-shadow: 7px 7px 10px rgb(61, 61, 61);
+    content: url(../images/youkepinglun/gif/top5.gif);
+}
+
+#content4 .img6:hover img {
+    transform: translate(-7px, -7px);
+    box-shadow: 7px 7px 10px rgb(61, 61, 61);
+    content: url(../images/youkepinglun/gif/top6.gif);
+}
+
+.clear {
+    clear: both;
+    margin-bottom: 40px;
+}
+
+#graph {
+    margin-top: 50px;
+}
+
+#aa,
+#bb,
+#cc,
+#dd {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    background-color: rgb(57, 68, 83);
+    width: 150px;
+    height: 400px;
+}
+
+#aa_,
+#bb_,
+#cc_,
+#dd_ {
+    border-radius: 8px 8px 0 0;
+}
+
+#aa_ {
+    height: 30%;
+    background-color: rgb(185, 185, 185);
+}
+
+#aa:hover #aa_ {
+    animation: aa 2s;
+}
+
+@keyframes aa {
+    0% {height: 100%;}
+    100% {height: 30%;}
+}
+
+#bb_ {
+    height: 85%;
+    background-color: rgb(185, 185, 185);
+}
+
+#bb:hover #bb_ {
+    animation: bb 1s;
+}
+
+@keyframes bb {
+    0% {height: 100%;}
+    100% {height: 85%;}
+}
+
+#cc_ {
+    height: 90%;
+    background-color: rgb(185, 185, 185);
+}
+
+#cc:hover #cc_ {
+    animation: cc 1s;
+}
+
+@keyframes cc {
+    0% {height: 100%;}
+    100% {height: 90%;}
+}
+
+#dd_ {
+    height: 95%;
+    background-color: rgb(185, 185, 185);
+}
+
+#dd:hover #dd_ {
+    animation: dd 1s;
+}
+
+@keyframes dd {
+    0% {height: 100%;}
+    100% {height: 95%;}
+}
+
+#graph .head {
+    font-size: 35px;
+    font-family: 幼圆;
+    font-weight: 900;
+    color: white;
+}
+
+#graph .text {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: white;
+}
+
+#content4 .head2 {
+    clear: left;
+    font-size: 50px;
+    font-family: 幼圆;
+    font-weight: 900;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255, 132, 0, 0), rgb(253, 203, 151), rgb(253, 203, 151), rgb(253, 203, 151), rgba(255, 132, 0, 0));
+}
+
+#content4 #navImg {
+    margin-left: 30px;
+    width: 850px;
+}
+
+#content4 #navImg img {
+    width: 100%;
+}
