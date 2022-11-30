@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ch-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/tubiao.ico">
+    <link rel="stylesheet" href="../css/navBox.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <script src="../js/all.js"></script>
+    <title>注册</title>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="navBox">
+        <ul class="nav">
+            <!-- 导航栏大字 -->
+            <div class="title"></div>
+            <li>
+                <a href="../index.html">
+                    <div class="shouye"></div>
+                </a>
+            </li>
+            <li>
+                    <div class="xiangxijieshao"></div>
+                <ul class="menu1">
+                    <a href="lishizonglan.html"><li class="lishizonglan"></li></a>
+                    <a href="jingdianjieshao.html"><li class="jingdianjieshao"></li></a>
+                    <a href="youkepinglun.html"><li class="youkepinglun"></li></a>
+                </ul>
+            </li>
+            <li>
+                    <div class="shipindaoyou"></div>
+                <ul class="menu2">
+                    <a href="xiangguanshipin.html"><li class="xiangguanshipin"></li></a>
+                    <a href="wenhuachuancheng.html"><li class="wenhuachuancheng"></li></a>
+                </ul>
+            </li>
+            <li>
+                <a href="#top">
+                    <div class="login_in"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <div class="padding"></div>
+        <form class="info">
+            <h1 class="head">注册信息</h1><hr class="hr1">
+            <div class="name">
+                用&ensp;户&ensp;名：
+                <input type="text" placeholder="输入用户名">
+            </div>
+            <div class="gender">
+                性&emsp;&emsp;别：
+                <label><input type="radio" name="gender">男</label>&emsp;
+                <label><input type="radio" name="gender">女</label>
+            </div>
+            <div class="password">
+                密&emsp;&emsp;码：
+                <input type="password" placeholder="设置密码"><br><hr style="height: 15px; border: none;">
+                确认密码：
+                <input type="password" placeholder="两次输入必须一致">
+            </div>
+            <div class="tel">
+                手&ensp;机&ensp;号：
+                <input type="text" placeholder="请输入手机号码">
+            </div>
+            <div class="beizhu">
+                自我介绍：
+                <textarea id="remark" cols="40" rows="5" placeholder="例如：我是来自洛阳市的一名网友，某日游览龙门石窟，觉得非常震撼……"></textarea>
+            </div><hr class="hr1">
+            <button type="button" onclick="signIn()">立即注册</button>
+            <button type="reset">重&emsp;&emsp;置</button>
+        </form>
+    </div>
+</body>
+</html>
